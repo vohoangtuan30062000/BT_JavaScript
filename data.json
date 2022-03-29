@@ -1,0 +1,35 @@
+
+{
+    "users":[
+        {"user":"admin","password":"123"},
+        {"user":"tuan","password":"abc"}
+    ],
+
+
+    "customers":[
+        {"tenKH":"Vo Hoang Tuan","CMND": "079200017080","SDT":"0896424914"},
+        {"tenKH":"Nguyen Thi Phuong Thao","CMND": "079200017890","SDT":"0374417914"},
+        {"tenKH":"Nhat","CMND": "123456789","SDT":"0987654321"}
+    ],
+
+
+    "rooms":[
+        {"maPhong":"A01","loaiPhong":"thuong","tinhTrang":"binh thuong","ngayDat":"2020-12-08","ngayTra":"2020-12-10"},
+        {"maPhong":"A02","loaiPhong":"thuong","tinhTrang":"binh thuong","ngayDat":"2020-12-15","ngayTra":"2020-12-20"},
+        {"maPhong":"A03","loaiPhong":"vip","tinhTrang":"binh thuong","ngayDat":"2020-12-25","ngayTra":"2020-12-26"},
+        {"maPhong":"A04","loaiPhong":"vip","tinhTrang":"binh thuong","ngayDat":"2020-12-05","ngayTra":"2020-12-07"}
+    ],
+    
+
+
+    "tools":[
+        {"maTB":"T04","loai":"Tivi","tinhTrang":"bình thường","phong":"A01"},
+        {"maTB":"B02","loai":"Ban","tinhTrang":"Hư","phong":"A02"},
+        {"maTB":"T03","loai":"Tivi","tinhTrang":"bình thường","phong":"A03"},
+        {"maTB":"V04","loai":"Nhà vệ sinh","tinhTrang":"bình thường","phong":"A04"}
+    ],
+
+
+    "hoaDon":[{"maPhongDat":"A01","loaiPhong":"vip","tenKH":"Vo Hoang Tuan","CMND":"079200017080","SDT":"0896424914","ngayDat":"2020-10-12","ngayTra":"2020-10-13"}
+            ]
+}
