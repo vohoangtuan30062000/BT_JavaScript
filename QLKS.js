@@ -170,11 +170,12 @@ function menuThietBi(chon){
             suaThietBi();
             break;
         case "4":
-            console.log(data.tools);
+            console.log(JSON.stringify(data.tools));
             thietBi();
             break;
         case "x":
             process.exit();
+            
         default:
             console.clear()
             baoLoi();
@@ -208,7 +209,7 @@ function themThietBi(){
                         {
                             console.clear();
                             console.log("Phòng không tồn tại");
-                            themThietBi();
+                            thietBi();
                         }
                     })
                 })
@@ -267,7 +268,7 @@ function suaThietBi(){
                             {
                                 console.clear();
                                 console.log("Không tìm thấy phòng chứa thiết bị");
-                                suaThietBi();
+                                thietBi();
                             }
                             
                         })
@@ -308,7 +309,7 @@ function menuPhongOc(chon){
             suaPhongOc();
             break;
         case "4":
-            console.log(data.rooms);
+            console.log(JSON.stringify(data.rooms));
             phongOc();
             break;
         case "5":
@@ -354,6 +355,7 @@ else
                     {
                         console.clear();
                         console.log("Ngày đặt phải nhỏ hơn ngày trả");
+                        phongOc();
                     }
                 
             });
@@ -459,14 +461,14 @@ function menuKhachHang(chon){
             suaKhachHang();
             break;
         case "4":
-            console.log(data.customers);
+            console.log(JSON.stringify(data.customers));
             khacHang();
             break;
         case "5":
             dangKyLuuTru();
             break;
         case "6":
-            console.log(data.hoaDon);
+            console.log(JSON.stringify(data.hoaDon));
             khacHang();
             break;
         case "7":
